@@ -17,6 +17,8 @@ winget install -e --id Microsoft.Edge -s winget
 winget install -e --id Git.Git -s winget
 winget install -e --id GitHub.cli -s winget
 winget install -e --id Microsoft.VisualStudioCode -s winget
+winget install -e --id SQLite.SQLite -s winget
+winget install -e --id DBBrowserForSQLite.DBBrowserForSQLite -s winget
 winget install -e --id Postman.Postman -s winget
 winget install -e --id Microsoft.SQLServerManagementStudio -s winget
 winget install -e --id Microsoft.VisualStudio.2022.Enterprise -s winget
