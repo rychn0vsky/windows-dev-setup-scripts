@@ -5,6 +5,7 @@ winget install -e --id Microsoft.PowerToys -s winget # https://learn.microsoft.c
 winget install -e --id JanDeDobbeleer.OhMyPosh -s winget # https://ohmyposh.dev/
 
 Install-Module -Name Terminal-Icons -Repository PSGallery # Terminal icons
+Install-Module -Name z # Z
 
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force # Posh-git
 
