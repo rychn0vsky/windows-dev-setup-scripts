@@ -2,6 +2,13 @@
 $omp_config = Join-Path $PSScriptRoot ".\paradox.omp.json"
 oh-my-posh init pwsh --config $omp_config | Invoke-Expression
 
+# Alias
+Set-Alias vim nvim
+Set-Alias ll ls
+Set-Alias g git
+Set-Alias cat type
+Set-Alias grep findstr
+
 # Terminal-Icons
 Import-Module Terminal-Icons
 
@@ -14,12 +21,6 @@ Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
-# Alias
-Set-Alias vim nvim
-Set-Alias ll ls
-Set-Alias g git
-Set-Alias cat type
-Set-Alias grep findstr
 
 # Which command
 function which ($command) { 
